@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #DDA0DD;
+    background-size: 100% 100%;
+}
+
+p, h1 {
+    margin: 0;
+}
+
+header {
+    width: 50%;
+
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    background-color: #8B008B;
+    border-radius: 15px;
+
+    text-align: center;
+}
+
+header > p {
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.workSpace {
+    width: 50%;
+    margin: auto;
+
+    background-color: #8B008B;
+    border-radius: 15px;
+}
+
+.workSpace > ul {    
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.workSpace > ul button li {
+    display:inline-block;
+    width: 200px;
+    height: 70px;
+
+    border-left: 1px solid #DDA0DD;
+    border-right: 1px solid #DDA0DD;
+    border-radius: 15px;
+
+    background-color: #DDA0DD;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.workSpace > ul button {
+    text-align: center;
+    text-decoration: none;
+    border-style: none;
+    border-color: #DA70D6;
+    background-color: #DA70D6;
+}
+
+.workSpace > .converterMenu {
+    text-align: center;
+    height: 100px;
+}
+
+.workSpace > .converterMenu > select {
+    border-radius: 15px;
+    background-color: #DDA0DD;
+    color: #ffffff;
+    text-align: center;
+
+    margin-top: 40px;
+}
+
+.workSpace > .converterMenu > select option:disabled {
+    color: #DDA0DD;
+}
+
+.workSpace > .inputSpace {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.workSpace > .inputSpace > input {
+    width: 80%;
+    margin-bottom: 20px;
+    background-color: #DDA0DD;
+    color: #ffffff;
+
+    text-align: center;
+
+    border-radius: 15px;
+}
+
+.workSpace > .resultSpace {
+    text-align: center;
+}
+
+.workSpace > .resultSpace > p {
+    color: #fff;
+}

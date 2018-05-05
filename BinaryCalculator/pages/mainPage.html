@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Binary converter</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <p>Binary converter</p>
+        </header>
+        <div class="workSpace">
+            <ul>
+                <button onclick="converter.getNumber(document.getElementById('inElement'), 
+                                                    document.getElementById('typeIn'), 
+                                                    document.getElementById('typeOut'), 
+                                                    document.getElementById('resultText'))"><li>Convert</li></button>
+            </ul>
+            <hr>
+            <div class="converterMenu">
+                <select id="typeIn">
+                    <option value="0" disabled="disabled">Select from what system you would like to convert</option>
+                    <option value="10">Decimal</option>
+                    <option value="2">Binary</option>
+                </select>
+                <select id="typeOut">
+                    <option value="0" disabled="disabled">Select to what system you would like to convert</option>
+                    <option value="2">Binary</option>
+                    <option value="10">Decimal</option>
+                </select>
+            </div>
+            <hr>
+            <div class="inputSpace">
+                <input type="text" id="inElement" placeholder="Input number to convert it!">
+            </div>
+            <hr>
+            <div class="resultSpace">
+                <p id="resultText">Input numbers to see result</p>
+            </div>
+        </div>
+        <script type="text/JavaScript" src="../javascript/binaryConverter.js"></script>
+    </body>
+</html>
